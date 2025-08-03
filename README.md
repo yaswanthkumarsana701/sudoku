@@ -59,7 +59,7 @@ def solve():
     else:
         messagebox.showerror("Error", "No solution exists!")
 
-# Clear button action
+
 def clear_board():
     for row in range(9):
         for col in range(9):
